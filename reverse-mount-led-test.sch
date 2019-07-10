@@ -121,12 +121,12 @@ $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5D25439C
-P 7450 4350
-F 0 "#PWR04" H 7450 4100 50  0001 C CNN
-F 1 "GND" H 7455 4177 50  0000 C CNN
-F 2 "" H 7450 4350 50  0001 C CNN
-F 3 "" H 7450 4350 50  0001 C CNN
-	1    7450 4350
+P 7450 5250
+F 0 "#PWR04" H 7450 5000 50  0001 C CNN
+F 1 "GND" H 7455 5077 50  0000 C CNN
+F 2 "" H 7450 5250 50  0001 C CNN
+F 3 "" H 7450 5250 50  0001 C CNN
+	1    7450 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -160,15 +160,83 @@ Wire Wire Line
 Wire Wire Line
 	7350 4250 7450 4250
 Wire Wire Line
-	7450 4250 7450 4350
+	7450 5150 7450 5250
 Wire Wire Line
 	7350 3800 7450 3800
 Wire Wire Line
 	7450 3800 7450 4250
-Connection ~ 7450 4250
 Wire Wire Line
 	6550 3800 6550 4250
 Wire Wire Line
 	6550 4250 6650 4250
 Connection ~ 6550 3800
+$Comp
+L Device:LED D3
+U 1 1 5D254A3A
+P 6800 4700
+F 0 "D3" H 6792 4445 50  0000 C CNN
+F 1 "LED" H 6792 4536 50  0000 C CNN
+F 2 "# reverse-mount-led-test:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 6800 4700 50  0001 C CNN
+F 3 "~" H 6800 4700 50  0001 C CNN
+	1    6800 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5D254A41
+P 7200 4700
+F 0 "R3" V 6995 4700 50  0000 C CNN
+F 1 "R_US" V 7086 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7240 4690 50  0001 C CNN
+F 3 "~" H 7200 4700 50  0001 C CNN
+	1    7200 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 4700 7050 4700
+Wire Wire Line
+	6550 4700 6650 4700
+$Comp
+L Device:LED D4
+U 1 1 5D254A4A
+P 6800 5150
+F 0 "D4" H 6792 4895 50  0000 C CNN
+F 1 "LED" H 6792 4986 50  0000 C CNN
+F 2 "# reverse-mount-led-test:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 6800 5150 50  0001 C CNN
+F 3 "~" H 6800 5150 50  0001 C CNN
+	1    6800 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5D254A51
+P 7200 5150
+F 0 "R4" V 6995 5150 50  0000 C CNN
+F 1 "R_US" V 7086 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7240 5140 50  0001 C CNN
+F 3 "~" H 7200 5150 50  0001 C CNN
+	1    7200 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 5150 7050 5150
+Wire Wire Line
+	6550 5150 6650 5150
+Wire Wire Line
+	6550 4250 6550 4700
+Connection ~ 6550 4250
+Wire Wire Line
+	6550 4700 6550 5150
+Connection ~ 6550 4700
+Wire Wire Line
+	7350 5150 7450 5150
+Wire Wire Line
+	7450 5150 7450 4700
+Connection ~ 7450 5150
+Connection ~ 7450 4250
+Wire Wire Line
+	7350 4700 7450 4700
+Connection ~ 7450 4700
+Wire Wire Line
+	7450 4700 7450 4250
 $EndSCHEMATC
