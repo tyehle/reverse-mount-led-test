@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -48,12 +48,12 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.2763889"
-     inkscape:cx="236.47372"
+     inkscape:cx="173.7969"
      inkscape:cy="195.54396"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="lCpLQ-624iJw4kLatod0_bottom" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs4429">
     <style
@@ -657,70 +657,90 @@
     </mask>
   </defs>
   <g
-     transform="matrix(10,0,0,-10,-1371600,-1130300)"
-     id="g4644">
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.89999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8"
+       id="rect4275"
+       width="127000"
+       height="127000"
+       x="152400"
+       y="-114300" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="board"
+     sodipodi:insensitive="true">
     <g
-       mask="url(#lCpLQ-624iJw4kLatod0_bottom_mech-mask)"
-       clip-path="url(#lCpLQ-624iJw4kLatod0_bottom_outline)"
-       transform="matrix(-1,0,0,1,317500,0)"
-       id="g4646">
-      <rect
-         x="152400"
-         y="-114300"
-         width="12700"
-         height="12700"
-         class="lCpLQ-624iJw4kLatod0_fr4"
-         id="rect4648"
-         style="color:#666666;fill:currentColor" />
-      <use
-         xlink:href="#lCpLQ-624iJw4kLatod0_bottom_copper"
-         class="lCpLQ-624iJw4kLatod0_cu"
-         id="use4650"
-         style="color:#cccccc;fill:currentColor;stroke:currentColor"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
-      <use
-         xlink:href="#lCpLQ-624iJw4kLatod0_bottom_copper"
-         class="lCpLQ-624iJw4kLatod0_cf"
-         mask="url(#lCpLQ-624iJw4kLatod0_bottom_cf-mask)"
-         id="use4652"
-         style="color:#cc9933;fill:currentColor;stroke:currentColor"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
+       style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+       transform="matrix(9.9999998,0,0,-9.9999998,-1371600,-1130300)"
+       id="g4644">
       <g
-         mask="url(#lCpLQ-624iJw4kLatod0_bottom_sm-mask)"
-         id="g4654">
+         mask="url(#lCpLQ-624iJw4kLatod0_bottom_mech-mask)"
+         clip-path="url(#lCpLQ-624iJw4kLatod0_bottom_outline)"
+         transform="matrix(-1,0,0,1,317500,0)"
+         id="g4646">
         <rect
            x="152400"
            y="-114300"
            width="12700"
            height="12700"
-           class="lCpLQ-624iJw4kLatod0_sm"
-           id="rect4656"
-           style="color:#4b0082;opacity:0.75;fill:currentColor" />
+           class="lCpLQ-624iJw4kLatod0_fr4"
+           id="rect4648"
+           style="color:#666666;fill:currentColor" />
         <use
-           xlink:href="#lCpLQ-624iJw4kLatod0_bottom_silkscreen"
-           class="lCpLQ-624iJw4kLatod0_ss"
-           id="use4658"
-           style="color:#ffffff;fill:currentColor;stroke:currentColor"
+           xlink:href="#lCpLQ-624iJw4kLatod0_bottom_copper"
+           class="lCpLQ-624iJw4kLatod0_cu"
+           id="use4650"
+           style="color:#cccccc;fill:currentColor;stroke:currentColor"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#lCpLQ-624iJw4kLatod0_bottom_copper"
+           class="lCpLQ-624iJw4kLatod0_cf"
+           mask="url(#lCpLQ-624iJw4kLatod0_bottom_cf-mask)"
+           id="use4652"
+           style="color:#cc9933;fill:currentColor;stroke:currentColor"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <g
+           mask="url(#lCpLQ-624iJw4kLatod0_bottom_sm-mask)"
+           id="g4654">
+          <rect
+             x="152400"
+             y="-114300"
+             width="12700"
+             height="12700"
+             class="lCpLQ-624iJw4kLatod0_sm"
+             id="rect4656"
+             style="color:#4b0082;opacity:0.75;fill:currentColor" />
+          <use
+             xlink:href="#lCpLQ-624iJw4kLatod0_bottom_silkscreen"
+             class="lCpLQ-624iJw4kLatod0_ss"
+             id="use4658"
+             style="color:#ffffff;fill:currentColor;stroke:currentColor"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+        <use
+           xlink:href="#lCpLQ-624iJw4kLatod0_bottom_solderpaste"
+           class="lCpLQ-624iJw4kLatod0_sp"
+           id="use4660"
+           style="color:#999999;fill:currentColor;stroke:currentColor"
            x="0"
            y="0"
            width="100%"
            height="100%" />
       </g>
-      <use
-         xlink:href="#lCpLQ-624iJw4kLatod0_bottom_solderpaste"
-         class="lCpLQ-624iJw4kLatod0_sp"
-         id="use4660"
-         style="color:#999999;fill:currentColor;stroke:currentColor"
-         x="0"
-         y="0"
-         width="100%"
-         height="100%" />
     </g>
   </g>
 </svg>
