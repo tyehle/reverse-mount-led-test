@@ -1,7 +1,7 @@
 # Reverse Mount LED Test Board
 Tiny board for testing reverse mount LED fit
 
-![top.svg](svg/top.svg)
+![bottom.svg](svg/bottom.svg)
 
 # LICENSE
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
